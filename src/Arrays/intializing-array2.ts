@@ -12,4 +12,8 @@ let daysOfWeek2: string[] = [
 
 console.log(daysOfWeek2.length);
 
-// install typescript properlu and then commiting the tsconfig
+// acessing elements and doing an iteration
+
+for (let i = 0; i < daysOfWeek2.length; i++) {
+  console.log(daysOfWeek2[i]);
+}
