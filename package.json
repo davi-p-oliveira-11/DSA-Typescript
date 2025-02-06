@@ -1,25 +1,16 @@
 {
-  "name": "api-podcast-node",
+  "name": "dsa-typescript",
   "version": "1.0.0",
-  "description": "",
-  "type": "module",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "Data Structures and Algorithms in TypeScript",
+  "main": "dist/index.js",
   "scripts": {
-    "start:dev": "tsx --env-file=.env src/server.ts",
-    "start:watch": "tsx watch --env-file=.env watch src/server.ts",
-    "dist": "tsup src",
-    "start:dist": "npm run dist && --env-file=.env node/server.js"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
+    "typescript": "^5.7.3",
     "@types/node": "^22.10.10",
-    "tsup": "^8.3.5",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.3"
+    "ts-node": "^10.9.2"
   }
 }
