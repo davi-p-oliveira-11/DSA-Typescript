@@ -45,5 +45,5 @@ numbers.pop();
 console.log(numbers);
 console.log(numbers.length);
 
-// retake at page 84, consider rewriting the unshift and pop logic in js, let's stop for today
+// retake at page 85, consider rewriting the unshift and pop logic in js, let's stop for today
 // lets have some leetvode also before proceeding
