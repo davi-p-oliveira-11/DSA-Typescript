@@ -47,5 +47,5 @@ console.log(numbers.length);
 
 // retake at page 85, consider rewriting the unshift and pop logic in js, let's stop for today
 
-// mehtod splice removes an element of the array specifing the index/position
+// method splice removes an element of the array specifing the index/position
 numbers.splice(5, 3);
